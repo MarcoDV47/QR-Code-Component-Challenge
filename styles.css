@@ -1,6 +1,5 @@
 body{
     background-color: hsl(212, 45%, 89%);
-    
     font-family: 'Outfit', sans-serif;
 }
 .attribution {
@@ -15,22 +14,24 @@ main {
     display: flex;
     flex-direction: column;
     width: 280px;
-    height: 480px;
-    margin: 10em auto;
+    height: 470px;
+    margin: 8.5em auto 1em auto;
     text-align: center;
     background-color: white;
-    padding: 1.2em;
+    padding: 1em;
     border-radius: 20px;
-    box-shadow: 0 5px 25px 0px hsl(220, 15%, 55%);
 }
 main img {
     border-radius: 15px;
+    margin-bottom: 2px;
 }
 p {
     font-size: 15px;
     text-align: center;
     font-weight: 400;
     color: hsl(220, 15%, 55%);
+    margin-right: 15px;
+    
 }
 h2 {
     color: hsl(218, 44%, 22%);
